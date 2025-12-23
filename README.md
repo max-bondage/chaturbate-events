@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title>Chaturbate Events</title>
-</head>
-<body>
-  <h1>Pagina eventi attiva</h1>
-  <p>In attesa di eventi...</p>
-</body>
-</html>
+cb.log("TEST: simulazione tip");
+cb.onEnter(function(user) {
+    cb.log("SIMULATO TIP per test");
+    cb.log("Utente: test_user");
+    cb.log("Token: 50");
+});
